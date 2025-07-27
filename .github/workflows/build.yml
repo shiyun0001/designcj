@@ -37,34 +37,3 @@ jobs:
         with:
           name: designcj-extension
           path: designcj.vsix
-
-  publish:
-    needs: build
-    if: success() && github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: 设置 Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-          cache: "npm"
-
-      - name: 安装依赖
-        run: npm ci
-
-      - name: 安装 vsce
-        run: npm install -g @vscode/vsce
-
-      - name: 下载构建产物
-        uses: actions/download-artifact@v3
-        with:
-          name: designcj-extension
-
-      - name: 发布到 VS Code Marketplace
-        if: success()
-        run: vsce publish --packagePath designcj.vsix
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
