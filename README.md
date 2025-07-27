@@ -1,89 +1,89 @@
-# 🧠 SuperDesign — AI Design Agent for Your IDE
+# 🧠 超级设计 — 您 IDE 中的 AI 设计助手
 
-![SuperDesign Cover](cover.png)
+![超级设计封面](cover.png)
 
-### **By:** [AI Jason](https://x.com/jasonzhou1993) & [JackJack](https://x.com/jackjack_eth)
+### **开发者:** [AI Jason](https://x.com/jasonzhou1993) & [JackJack](https://x.com/jackjack_eth)
 
-SuperDesign is the first **open-source design agent** that lives right inside your IDE.  
-Generate UI mockups, components, and wireframes directly from natural language prompts.  
-Works seamlessly with Cursor, Windsurf, Claude Code, and plain VS Code.
+超级设计是首个**开源设计助手**，直接集成在您的 IDE 中。  
+通过自然语言提示生成 UI 模型、组件和线框图。  
+与 Cursor、Windsurf、Claude Code 和普通 VS Code 无缝协作。
 
-> ✨ "Why design one option when you can explore ten?" — SuperDesign
+> ✨ "为什么只设计一个选项，当您可以探索十个？" — 超级设计
 
-[Join discord](https://discord.gg/FYr49d6cQ9)
+[加入 Discord 社区](https://discord.gg/FYr49d6cQ9)
 
-[Upvote on Hackernews](https://news.ycombinator.com/item?id=44376003)
+[在 Hackernews 上投票](https://news.ycombinator.com/item?id=44376003)
 
-[Install guide](https://www.superdesign.dev/)
-
----
-
-## 🎬 Demo Video (Click to play)
-
-[![SuperDesign Demo](https://img.youtube.com/vi/INv6oZDhhUM/maxresdefault.jpg)](https://youtu.be/INv6oZDhhUM)
+[安装指南](https://www.superdesign.dev/)
 
 ---
 
-## 🚀 Features
+## 🎬 演示视频 (点击播放)
 
-- 🖼️ **Product Mock**: Instantly generate full UI screens from a single prompt
-- 🧩 **UI Components**: Create reusable components you can drop into your code
-- 📝 **Wireframes**: Explore low-fidelity layouts for fast iteration
-- 🔁 **Fork & Iterate**: Duplicate and evolve designs easily
-- 📥 **Prompt-to-IDE**: Copy prompts into your favorite AI IDE (Cursor, Windsurf, Claude Code)
+[![超级设计演示](https://img.youtube.com/vi/INv6oZDhhUM/maxresdefault.jpg)](https://youtu.be/INv6oZDhhUM)
 
 ---
 
-## 🧠 Works Great With Cursor, Windsurf, Claude Code, VS Code
+## 🚀 功能特点
 
-👉 [Install here](https://www.superdesign.dev/)
-
----
-
-## 🛠️ Getting Started
-
-1. **Install the Extension** from the Cursor/VS Code Marketplace
-2. Open the `SuperDesign` sidebar panel
-3. Type a prompt (e.g., _"Design a modern login screen"_)
-4. View generated mockups, components, and wireframes
-5. Fork, tweak, and paste into your project
+- 🖼️ **产品模型**: 通过一个提示立即生成完整 UI 界面
+- 🧩 **UI 组件**: 创建可直接放入代码的可重用组件
+- 📝 **线框图**: 探索低保真布局，实现快速迭代
+- 🔁 **复制与迭代**: 轻松复制和改进设计
+- 📥 **提示到 IDE**: 将提示复制到您喜欢的 AI IDE (Cursor、Windsurf、Claude Code)
 
 ---
 
-## Can I use my own Claude Code or Cursor subscription?
-Yes, after you initialise superdesign extension, some cursor/claude code rules will be added, so you can prompt the agent to do design and preview in superdesign canva (cmd + shift + p -> superdesign: open canva)
+## 🧠 完美兼容 Cursor、Windsurf、Claude Code、VS Code
 
-If using Cursor - I will highly suggest copy the prompt in 'design.mdc' and create a custom mode in cursor with that same system prompt; This should give you much better performance
-
-Instructions here (Click to play): 
-[![Instruction video](v0.0.11.png)](https://youtu.be/KChmJMCDOB0?si=pvU0kNRO4GRWjsec&t=122)
-
-## 📂 Where Are My Designs Stored?
-
-Your generated designs are saved locally inside `.superdesign/`.
+👉 [点击安装](https://www.superdesign.dev/)
 
 ---
 
-## ❓ FAQ
+## 🛠️ 快速开始
 
-**Is it free and open source?**  
-Yes! We are open source — fork it, extend it, remix it.
-
-**Can I customize the design agent?**  
-Yes — use your own prompt templates, modify behaviors, or add commands.
-
-**Can SuperDesign update existing UI?**  
-Absolutely — select a component, describe the change, and let the agent do the rest.
-
-**How can I contribute?**  
-Pull requests are welcome. Star the repo and join us on [Discord](https://discord.gg/XYZ)!
+1. 从 Cursor/VS Code 市场**安装扩展**
+2. 打开`超级设计`侧边栏面板
+3. 输入提示语(例如，_"设计一个现代登录界面"_)
+4. 查看生成的模型、组件和线框图
+5. 复制、调整并粘贴到您的项目中
 
 ---
 
-## 🔗 Links
+## 我可以使用自己的 Claude Code 或 Cursor 订阅吗?
 
-- 🌐 Website: [https://superdesign.dev](https://superdesign.dev)
-- 📦 GitHub: [https://github.com/superdesigndev/superdesign](https://github.com/superdesigndev/superdesign)
-- 💬 Discord: [Join the Community](https://discord.gg/XYZ)
+是的，在初始化超级设计扩展后，系统会添加一些 cursor/claude code 规则，这样您就可以提示代理进行设计并在超级设计画布中预览(cmd + shift + p -> 超级设计: 打开画布)
+
+如果使用 Cursor - 我强烈建议复制'design.mdc'中的提示，并在 cursor 中创建具有相同系统提示的自定义模式；这将为您提供更好的性能
+
+使用说明视频 (点击播放):
+[![使用说明视频](v0.0.11.png)](https://youtu.be/KChmJMCDOB0?si=pvU0kNRO4GRWjsec&t=122)
+
+## 📂 我的设计存储在哪里?
+
+您生成的设计本地保存在`.superdesign/`目录中。
+
+---
+
+## ❓ 常见问题
+
+**它是免费和开源的吗?**  
+是的！我们是开源的 — 您可以自由分叉、扩展或重新混合它。
+
+**我可以定制设计助手吗?**  
+可以 — 使用您自己的提示模板、修改行为或添加命令。
+
+**超级设计可以更新现有 UI 吗?**  
+当然可以 — 选择一个组件，描述更改，让助手完成剩下的工作。
+
+**我如何贡献?**  
+欢迎提交拉取请求。为仓库加星并加入我们的[Discord](https://discord.gg/XYZ)社区！
+
+---
+
+## 🔗 链接
+
+- 🌐 网站: [https://superdesign.dev](https://superdesign.dev)
+- 📦 GitHub: [https://github.com/shiyun0001/designcj](https://github.com/shiyun0001/designcj)
+- 💬 Discord: [加入社区](https://discord.gg/XYZ)
 - 🐦 Twitter / X: [@SuperDesignDev](https://x.com/SuperDesignDev)
-
