@@ -1,0 +1,39 @@
+name: 构建与打包
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 编译插件
+        run: npm run compile
+
+      - name: 安装 vsce
+        run: npm install -g @vscode/vsce
+
+      - name: 打包插件
+        run: vsce package -o designcj.vsix
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v3
+        with:
+          name: designcj-extension
+          path: designcj.vsix
