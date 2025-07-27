@@ -1,13 +1,13 @@
 {
-  "name": "superdesign",
-  "displayName": "superdesign",
-  "description": "The 1st Design Agent lives inside your IDE",
-  "version": "0.0.11",
-  "publisher": "iganbold",
+  "name": "designcj",
+  "displayName": "超级设计助手",
+  "description": "基于AI的设计工具，支持自定义API URL和中文界面",
+  "version": "0.1.0",
+  "publisher": "shiyun0001",
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/superdesigndev/superdesign"
+    "url": "https://github.com/shiyun0001/designcj"
   },
   "engines": {
     "vscode": "^1.90.0"
